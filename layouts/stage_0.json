@@ -1,11 +1,49 @@
 {
-	"name": "Layout 1",
+	"name": "stage_0",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "ground_0",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"sid": 565065318830765,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 565065318830765,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 58.37526796431621,
+						"y": 35.809350293685554,
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 235734914521629,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

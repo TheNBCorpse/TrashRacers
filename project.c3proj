@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "gamepad",
 			"name": "Gamepad",
 			"author": "Scirra",
@@ -44,7 +51,9 @@
 	],
 	"uniqueId": "i608lct8rk7",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"ground_0"
+		],
 		"subfolders": [
 			{
 				"items": [
@@ -68,7 +77,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"stage_0"
 		],
 		"subfolders": []
 	},
