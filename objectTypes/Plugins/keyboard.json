@@ -1,0 +1,12 @@
+{
+	"name": "keyboard",
+	"plugin-id": "Keyboard",
+	"sid": 411125326938460,
+	"singleglobal-inst": {
+		"type": "keyboard",
+		"properties": {},
+		"uid": 4,
+		"sid": 948015017607049,
+		"tags": ""
+	}
+}
