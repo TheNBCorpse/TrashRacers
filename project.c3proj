@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Shape3D",
+			"name": "3D shape",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -47,12 +54,22 @@
 			"name": "Gamepad",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Car",
+			"name": "Car",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "i608lct8rk7",
 	"objectTypes": {
 		"items": [
-			"ground_0"
+			"ground_0",
+			"player_dummy",
+			"camera_spacer",
+			"camera_marker"
 		],
 		"subfolders": [
 			{
@@ -195,8 +212,8 @@
 		"authorEmail": "thenbcorpse@gmail.com",
 		"authorWebsite": "https://thenbcorpse.github.io",
 		"appId": "",
-		"pixelRounding": true,
-		"zAxisScale": "normalized",
+		"pixelRounding": false,
+		"zAxisScale": "regular",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-integer-scale",

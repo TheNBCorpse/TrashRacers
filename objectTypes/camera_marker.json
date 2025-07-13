@@ -1,7 +1,7 @@
 {
-	"name": "ground_0",
+	"name": "camera_marker",
 	"plugin-id": "Sprite",
-	"sid": 952721634777154,
+	"sid": 869855225072725,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -12,21 +12,21 @@
 			{
 				"frames": [
 					{
-						"width": 32,
-						"height": 32,
+						"width": 4,
+						"height": 4,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3756338,
+						"imageSpriteId": 1885083,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 620937784198639,
+				"sid": 930863339569907,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

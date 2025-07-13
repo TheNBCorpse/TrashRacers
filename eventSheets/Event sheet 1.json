@@ -1,5 +1,71 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "camera",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 923721759847775
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "camera_spacer",
+							"sid": 912958308067338,
+							"parameters": {
+								"object": "player_dummy",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "camera_spacer",
+							"sid": 714097778753975,
+							"parameters": {
+								"angle": "anglelerp(Self.Angle, player_dummy.Angle - 180, 15 * dt)"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "camera_marker",
+							"sid": 150227957701750,
+							"parameters": {
+								"x": "camera_spacer.ImagePointX(1)",
+								"y": "camera_spacer.ImagePointY(1)"
+							}
+						},
+						{
+							"id": "look-at-position",
+							"objectClass": "camera",
+							"sid": 421596203882213,
+							"parameters": {
+								"cam-x": "camera_marker.X",
+								"cam-y": "camera_marker.Y",
+								"cam-z": "camera_marker.ZElevation + 40",
+								"look-x": "player_dummy.X",
+								"look-y": "player_dummy.Y",
+								"look-z": "player_dummy.ZElevation + 20",
+								"up-x": "0",
+								"up-y": "0",
+								"up-z": "1"
+							}
+						}
+					],
+					"sid": 515598793733536
+				}
+			],
+			"sid": 762947902937145
+		}
+	],
 	"sid": 498983295463514
 }
